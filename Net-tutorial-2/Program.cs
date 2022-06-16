@@ -87,24 +87,28 @@
 // Console.WriteLine(value2);
 
 // increment and decrement 
-int value = 1;
+// int value = 1;
 
-value = value + 1;
-Console.WriteLine("First increment: " + value);
+// value = value + 1;
+// Console.WriteLine("First increment: " + value);
 
-value += 1;
-Console.WriteLine("Second increment: " + value);
+// value += 1;
+// Console.WriteLine("Second increment: " + value);
 
-value++;
-Console.WriteLine("Third increment: " + value);
+// value++;
+// Console.WriteLine("Third increment: " + value);
 
-value = value - 1;
-Console.WriteLine("First Decremnt: " + value);
+// value = value - 1;
+// Console.WriteLine("First Decremnt: " + value);
 
-value -= 1;
-Console.WriteLine("Second Decrement: " + value);
+// value -= 1;
+// Console.WriteLine("Second Decrement: " + value);
 
-value--;
-Console.WriteLine("Third decrement: " + value);
+// value--;
+// Console.WriteLine("Third decrement: " + value);
+
+int fahrenheit = 94;
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine($"The temperature is {celsius} celsius");
 
 
