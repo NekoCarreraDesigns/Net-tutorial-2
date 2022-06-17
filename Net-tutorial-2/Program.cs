@@ -99,7 +99,7 @@
 // Console.WriteLine("Third increment: " + value);
 
 // value = value - 1;
-// Console.WriteLine("First Decremnt: " + value);
+// Console.WriteLine("First Decrement: " + value);
 
 // value -= 1;
 // Console.WriteLine("Second Decrement: " + value);
@@ -110,5 +110,3 @@
 int fahrenheit = 94;
 decimal celsius = (fahrenheit - 32m) * (5m / 9m);
 Console.WriteLine($"The temperature is {celsius} celsius");
-
-
