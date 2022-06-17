@@ -107,6 +107,11 @@
 // value--;
 // Console.WriteLine("Third decrement: " + value);
 
-int fahrenheit = 94;
-decimal celsius = (fahrenheit - 32m) * (5m / 9m);
-Console.WriteLine($"The temperature is {celsius} celsius");
+// int fahrenheit = 94;
+// decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+// Console.WriteLine($"The temperature is {celsius} celsius");
+
+// Methods in .NET library
+Random dice = new Random();
+int roll = dice.Next(1, 7);
+Console.WriteLine(roll);
