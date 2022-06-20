@@ -200,3 +200,4 @@ Console.WriteLine($"Fifth: {placesIWantToGo[4]}");
 placesIWantToGo[0] = "Costa Rica";
 
 Console.WriteLine($"First reassign: {placesIWantToGo[0]}");
+Console.WriteLine($"There are {placesIWantToGo.Length} places I want to go");
