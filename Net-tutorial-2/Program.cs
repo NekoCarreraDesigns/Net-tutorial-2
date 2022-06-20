@@ -208,3 +208,15 @@ foreach (string name in names)
 {
     Console.WriteLine(name);
 }
+
+int[] inventory = { 100, 200, 300, 400, 500 };
+int sum = 0;
+int bin = 0;
+foreach (int items in inventory)
+{
+    sum += items;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {items} (running total: {sum})");
+}
+
+Console.WriteLine($"We have {sum} items in inventory.");
