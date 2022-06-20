@@ -182,3 +182,16 @@
 
 // Arrays and data types
 string[] placesIWantToGo = new string[5];
+
+placesIWantToGo[0] = "Spain";
+placesIWantToGo[1] = "Portugal";
+placesIWantToGo[2] = "Germany";
+placesIWantToGo[3] = "Netherlands";
+placesIWantToGo[4] = "Czechia";
+
+Console.WriteLine($"First: {placesIWantToGo[0]}");
+Console.WriteLine($"Second: {placesIWantToGo[1]}");
+Console.WriteLine($"Third: {placesIWantToGo[2]}");
+Console.WriteLine($"Fourth: {placesIWantToGo[3]}");
+Console.WriteLine($"Fifth: {placesIWantToGo[4]}");
+
