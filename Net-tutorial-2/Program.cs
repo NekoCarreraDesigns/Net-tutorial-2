@@ -189,15 +189,22 @@
 // placesIWantToGo[3] = "Netherlands";
 // placesIWantToGo[4] = "Czechia";
 
-string[] placesIWantToGo = { "Spain", "Portugal", "Germany", "Netherlands", "Czechia" };
+// string[] placesIWantToGo = { "Spain", "Portugal", "Germany", "Netherlands", "Czechia" };
 
-Console.WriteLine($"First: {placesIWantToGo[0]}");
-Console.WriteLine($"Second: {placesIWantToGo[1]}");
-Console.WriteLine($"Third: {placesIWantToGo[2]}");
-Console.WriteLine($"Fourth: {placesIWantToGo[3]}");
-Console.WriteLine($"Fifth: {placesIWantToGo[4]}");
+// Console.WriteLine($"First: {placesIWantToGo[0]}");
+// Console.WriteLine($"Second: {placesIWantToGo[1]}");
+// Console.WriteLine($"Third: {placesIWantToGo[2]}");
+// Console.WriteLine($"Fourth: {placesIWantToGo[3]}");
+// Console.WriteLine($"Fifth: {placesIWantToGo[4]}");
 
-placesIWantToGo[0] = "Costa Rica";
+// placesIWantToGo[0] = "Costa Rica";
 
-Console.WriteLine($"First reassign: {placesIWantToGo[0]}");
-Console.WriteLine($"There are {placesIWantToGo.Length} places I want to go");
+// Console.WriteLine($"First reassign: {placesIWantToGo[0]}");
+// Console.WriteLine($"There are {placesIWantToGo.Length} places I want to go");
+
+// foreach statement to loop through an array
+string[] names = { "Candace", "Nick", "Lolo" };
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
