@@ -181,13 +181,15 @@
 // }
 
 // Arrays and data types
-string[] placesIWantToGo = new string[5];
+// string[] placesIWantToGo = new string[5];
 
-placesIWantToGo[0] = "Spain";
-placesIWantToGo[1] = "Portugal";
-placesIWantToGo[2] = "Germany";
-placesIWantToGo[3] = "Netherlands";
-placesIWantToGo[4] = "Czechia";
+// placesIWantToGo[0] = "Spain";
+// placesIWantToGo[1] = "Portugal";
+// placesIWantToGo[2] = "Germany";
+// placesIWantToGo[3] = "Netherlands";
+// placesIWantToGo[4] = "Czechia";
+
+string[] placesIWantToGo = { "Spain", "Portugal", "Germany", "Netherlands", "Czechia" };
 
 Console.WriteLine($"First: {placesIWantToGo[0]}");
 Console.WriteLine($"Second: {placesIWantToGo[1]}");
@@ -195,3 +197,6 @@ Console.WriteLine($"Third: {placesIWantToGo[2]}");
 Console.WriteLine($"Fourth: {placesIWantToGo[3]}");
 Console.WriteLine($"Fifth: {placesIWantToGo[4]}");
 
+placesIWantToGo[0] = "Costa Rica";
+
+Console.WriteLine($"First reassign: {placesIWantToGo[0]}");
