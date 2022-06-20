@@ -203,20 +203,44 @@
 // Console.WriteLine($"There are {placesIWantToGo.Length} places I want to go");
 
 // foreach statement to loop through an array
-string[] names = { "Candace", "Nick", "Lolo" };
-foreach (string name in names)
-{
-    Console.WriteLine(name);
-}
+// string[] names = { "Candace", "Nick", "Lolo" };
+// foreach (string name in names)
+// {
+//     Console.WriteLine(name);
+// }
 
-int[] inventory = { 100, 200, 300, 400, 500 };
-int sum = 0;
-int bin = 0;
-foreach (int items in inventory)
-{
-    sum += items;
-    bin++;
-    Console.WriteLine($"Bin {bin} = {items} (running total: {sum})");
-}
+// int[] inventory = { 100, 200, 300, 400, 500 };
+// int sum = 0;
+// int bin = 0;
+// foreach (int items in inventory)
+// {
+//     sum += items;
+//     bin++;
+//     Console.WriteLine($"Bin {bin} = {items} (running total: {sum})");
+// }
 
-Console.WriteLine($"We have {sum} items in inventory.");
+// Console.WriteLine($"We have {sum} items in inventory.");
+
+// boolean operators
+// Console.WriteLine("a" == "a");
+// Console.WriteLine("a" == "A");
+// Console.WriteLine(1 == 2);
+
+// string myValue = "a";
+// Console.WriteLine(myValue == "a");
+
+// Console.WriteLine("a" != "a");
+// Console.WriteLine("a" != "A");
+// Console.WriteLine(1 != 2);
+
+// string myValue1 = "a";
+// Console.WriteLine(myValue1 != "a");
+
+// Console.WriteLine(1 > 2);
+// Console.WriteLine(1 < 2);
+// Console.WriteLine(1 >= 1);
+// Console.WriteLine(1 <= 2);
+
+string message = "The bagels are onion and shmeared with cream cheese";
+Console.WriteLine(!message.Contains("cheese"));
+Console.WriteLine(!message.Contains("spread"));
