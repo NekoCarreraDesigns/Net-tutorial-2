@@ -179,3 +179,6 @@
 // {
 //     Console.WriteLine("Sorry, you lose.");
 // }
+
+// Arrays and data types
+string[] placesIWantToGo = new string[5];
