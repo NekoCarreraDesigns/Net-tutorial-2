@@ -241,6 +241,6 @@
 // Console.WriteLine(1 >= 1);
 // Console.WriteLine(1 <= 2);
 
-string message = "The bagels are onion and shmeared with cream cheese";
-Console.WriteLine(!message.Contains("cheese"));
-Console.WriteLine(!message.Contains("spread"));
+// string message = "The bagels are onion and shmeared with cream cheese";
+// Console.WriteLine(!message.Contains("cheese"));
+// Console.WriteLine(!message.Contains("spread"));
