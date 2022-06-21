@@ -253,3 +253,30 @@
 //     int value = 10;
 //     Console.WriteLine($"indie rock: {value}");
 // }
+
+// Switch statement
+int awesomenessLevel = 400;
+string awesomePerson = "Candace";
+
+string title = "";
+
+switch (awesomenessLevel)
+{
+    case 100:
+        title = "Their okay";
+        break;
+    case 200:
+        title = "Their likeable";
+        break;
+    case 300:
+        title = "Their Cool";
+        break;
+    case 400:
+        title = "Is so Amazing!";
+        break;
+    default:
+        title = "lame";
+        break;
+}
+
+Console.WriteLine($"{awesomePerson}, {title}");
