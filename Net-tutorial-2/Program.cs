@@ -244,3 +244,12 @@
 // string message = "The bagels are onion and shmeared with cream cheese";
 // Console.WriteLine(!message.Contains("cheese"));
 // Console.WriteLine(!message.Contains("spread"));
+
+// Code blocks and variable scope
+
+bool cool = true;
+if (cool)
+{
+    int value = 10;
+    Console.WriteLine($"indie rock: {value}");
+}
