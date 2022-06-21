@@ -247,9 +247,9 @@
 
 // Code blocks and variable scope
 
-bool cool = true;
-if (cool)
-{
-    int value = 10;
-    Console.WriteLine($"indie rock: {value}");
-}
+// bool cool = true;
+// if (cool)
+// {
+//     int value = 10;
+//     Console.WriteLine($"indie rock: {value}");
+// }
