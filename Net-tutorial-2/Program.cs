@@ -255,28 +255,28 @@
 // }
 
 // Switch statement
-int awesomenessLevel = 400;
-string awesomePerson = "Candace";
+// int awesomenessLevel = 400;
+// string awesomePerson = "Candace";
 
-string title = "";
+// string title = "";
 
-switch (awesomenessLevel)
-{
-    case 100:
-        title = "Their okay";
-        break;
-    case 200:
-        title = "Their likeable";
-        break;
-    case 300:
-        title = "Their Cool";
-        break;
-    case 400:
-        title = "Is so Amazing!";
-        break;
-    default:
-        title = "lame";
-        break;
-}
+// switch (awesomenessLevel)
+// {
+//     case 100:
+//         title = "Their okay";
+//         break;
+//     case 200:
+//         title = "Their likeable";
+//         break;
+//     case 300:
+//         title = "Their Cool";
+//         break;
+//     case 400:
+//         title = "Is so Amazing!";
+//         break;
+//     default:
+//         title = "lame";
+//         break;
+// }
 
-Console.WriteLine($"{awesomePerson}, {title}");
+// Console.WriteLine($"{awesomePerson}, {title}");
