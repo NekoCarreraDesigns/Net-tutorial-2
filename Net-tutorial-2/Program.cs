@@ -280,3 +280,20 @@
 // }
 
 // Console.WriteLine($"{awesomePerson}, {title}");
+
+// for statement for iteration through a loop
+// loop forward 
+for (int i = 0; i < 20; i++)
+{
+    Console.WriteLine(i);
+}
+// loop backwards
+for (int i = 20; i >= 0; i--)
+{
+    Console.WriteLine(i);
+}
+// skipping elements in the loop
+for (int i = 0; i < 20; i += 2)
+{
+    Console.WriteLine(i);
+}
