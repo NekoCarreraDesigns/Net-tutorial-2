@@ -304,7 +304,7 @@
 //     if (i == 6) break;
 // }
 // Looping through an array
-string[] names = { "Candace", "Nick", "Brandy", "Lolo", "Terrick" };
-for (int i = 0; i < names.Length; i++)
-    if (names[i] == "Terrick") names[i] = "Amanda";
-foreach (var name in names) Console.WriteLine(name);
+// string[] names = { "Candace", "Nick", "Brandy", "Lolo", "Terrick" };
+// for (int i = 0; i < names.Length; i++)
+//     if (names[i] == "Terrick") names[i] = "Amanda";
+// foreach (var name in names) Console.WriteLine(name);
