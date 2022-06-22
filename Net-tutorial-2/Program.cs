@@ -283,17 +283,23 @@
 
 // for statement for iteration through a loop
 // loop forward 
-for (int i = 0; i < 20; i++)
-{
-    Console.WriteLine(i);
-}
-// loop backwards
-for (int i = 20; i >= 0; i--)
-{
-    Console.WriteLine(i);
-}
-// skipping elements in the loop
-for (int i = 0; i < 20; i += 2)
-{
-    Console.WriteLine(i);
-}
+// for (int i = 0; i < 20; i++)
+// {
+//     Console.WriteLine(i);
+// }
+// // loop backwards
+// for (int i = 20; i >= 0; i--)
+// {
+//     Console.WriteLine(i);
+// }
+// // skipping elements in the loop
+// for (int i = 0; i < 20; i += 2)
+// {
+//     Console.WriteLine(i);
+// }
+// adding break keyword to stop iteration
+// for (int i = 0; i < 10; i++)
+// {
+//     Console.WriteLine(i);
+//     if (i == 6) break;
+// }
