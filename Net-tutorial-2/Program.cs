@@ -353,6 +353,6 @@
 // Console.WriteLine($"decimal : {decimal.MinValue} to {decimal.MaxValue} (with 28-29 digits of precision)");
 
 // reference types 
-int[] data = new int[3];
-string shortenedString = "Hello World!";
-Console.WriteLine(shortenedString);
+// int[] data = new int[3];
+// string shortenedString = "Hello World!";
+// Console.WriteLine(shortenedString);
