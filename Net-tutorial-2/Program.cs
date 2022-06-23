@@ -356,3 +356,9 @@
 // int[] data = new int[3];
 // string shortenedString = "Hello World!";
 // Console.WriteLine(shortenedString);
+
+// data type casting and conversion
+int first = 2;
+string second = "4";
+string result = first + second;
+Console.WriteLine(result);
