@@ -363,8 +363,8 @@
 // string result = first + second;
 // Console.WriteLine(result);
 
-int myInt = 3;
-Console.WriteLine($"int: {myInt}");
+// int myInt = 3;
+// Console.WriteLine($"int: {myInt}");
 
-decimal myDecimal = myInt;
-Console.WriteLine($"decimal: {myDecimal}");
+// decimal myDecimal = myInt;
+// Console.WriteLine($"decimal: {myDecimal}");
