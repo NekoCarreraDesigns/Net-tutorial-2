@@ -377,51 +377,52 @@
 // Console.WriteLine($"int: {myInt}");
 
 // sorting arrays
-string[] boxes = { "A123", "B456", "A124", "B678" };
+// string[] boxes = { "A123", "B456", "A124", "B678" };
 
-Console.WriteLine("Sorted...");
-Array.Sort(boxes);
-foreach (var box in boxes)
-{
-    Console.WriteLine($"-- {box}");
-}
+// Console.WriteLine("Sorted...");
+// Array.Sort(boxes);
+// foreach (var box in boxes)
+// {
+//     Console.WriteLine($"-- {box}");
+// }
 
-Console.WriteLine("");
-Console.WriteLine("Reversed...");
-Array.Reverse(boxes);
-foreach (var box in boxes)
-{
-    Console.WriteLine($"-- {box}");
-}
+// Console.WriteLine("");
+// Console.WriteLine("Reversed...");
+// Array.Reverse(boxes);
+// foreach (var box in boxes)
+// {
+//     Console.WriteLine($"-- {box}");
+// }
 
-Console.WriteLine("");
+// Console.WriteLine("");
 
-Console.WriteLine($"Before: {boxes[0]}");
-Array.Clear(boxes, 0, 2);
-Console.WriteLine($"After: {boxes[0]}");
-Console.WriteLine($"Clearing 2 ... count: {boxes.Length}");
-foreach (var box in boxes)
-{
-    Console.WriteLine($"-- {box}");
-}
+// Console.WriteLine($"Before: {boxes[0]}");
+// Array.Clear(boxes, 0, 2);
+// Console.WriteLine($"After: {boxes[0]}");
+// Console.WriteLine($"Clearing 2 ... count: {boxes.Length}");
+// foreach (var box in boxes)
+// {
+//     Console.WriteLine($"-- {box}");
+// }
 
-Console.WriteLine("");
-Array.Resize(ref boxes, 6);
-Console.WriteLine($"Resizing 6 ... count: {boxes.Length}");
+// Console.WriteLine("");
+// Array.Resize(ref boxes, 6);
+// Console.WriteLine($"Resizing 6 ... count: {boxes.Length}");
 
-boxes[4] = "C100";
-boxes[5] = "C101";
+// boxes[4] = "C100";
+// boxes[5] = "C101";
 
-foreach (var box in boxes)
-{
-    Console.WriteLine($"-- {box}");
-}
+// foreach (var box in boxes)
+// {
+//     Console.WriteLine($"-- {box}");
+// }
 
-Console.WriteLine("");
-Array.Resize(ref boxes, 3);
-Console.WriteLine($"Resizing 3 ... count: {boxes.Length}");
+// Console.WriteLine("");
+// Array.Resize(ref boxes, 3);
+// Console.WriteLine($"Resizing 3 ... count: {boxes.Length}");
 
-foreach (var box in boxes)
-{
-    Console.WriteLine($"-- {box}");
-}
+// foreach (var box in boxes)
+// {
+//     Console.WriteLine($"-- {box}");
+// }
+
