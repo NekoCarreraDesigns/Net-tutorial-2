@@ -473,3 +473,7 @@
 // Console.WriteLine($"     Sub total: {subtotal:C}");
 // Console.WriteLine($"         Tax percentage:  {taxPercentage:P2}");
 // Console.WriteLine($"     Total due: {total:C}");
+
+string input = "Pad this";
+Console.WriteLine(input.PadLeft(12, '-'));
+Console.WriteLine(input.PadRight(12, '-'));
