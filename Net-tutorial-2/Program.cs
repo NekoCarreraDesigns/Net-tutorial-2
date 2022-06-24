@@ -393,3 +393,14 @@ foreach (var box in boxes)
 {
     Console.WriteLine($"-- {box}");
 }
+
+Console.WriteLine("");
+
+Console.WriteLine($"Before: {boxes[0]}");
+Array.Clear(boxes, 0, 2);
+Console.WriteLine($"After: {boxes[0]}");
+Console.WriteLine($"Clearing 2 ... count: {boxes.Length}");
+foreach (var box in boxes)
+{
+    Console.WriteLine($"-- {box}");
+}
