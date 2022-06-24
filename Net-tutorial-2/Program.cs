@@ -416,3 +416,12 @@ foreach (var box in boxes)
 {
     Console.WriteLine($"-- {box}");
 }
+
+Console.WriteLine("");
+Array.Resize(ref boxes, 3);
+Console.WriteLine($"Resizing 3 ... count: {boxes.Length}");
+
+foreach (var box in boxes)
+{
+    Console.WriteLine($"-- {box}");
+}
