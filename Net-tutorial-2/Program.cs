@@ -375,3 +375,13 @@
 
 // int myInt = (int)myDecimal;
 // Console.WriteLine($"int: {myInt}");
+
+// sorting arrays
+string[] boxes = { "A123", "B456", "A124", "B678" };
+
+Console.WriteLine("Sorted...");
+Array.Sort(boxes);
+foreach (var box in boxes)
+{
+    Console.WriteLine($"-- {box}");
+}
