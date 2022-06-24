@@ -438,3 +438,15 @@
 // {
 //     Console.WriteLine(item);
 // }
+
+// composite formatting
+string first = "Hello";
+string second = "World";
+// string result = string.Format("{0} {1}!", first, second);
+// using format tokens
+// Console.WriteLine("{1} {0}!", first, second);
+// Console.WriteLine("{0} {0} {0}!", first, second);
+// using interpolation
+Console.WriteLine($"{first} {second}!");
+Console.WriteLine($"{second} {first}!");
+Console.WriteLine($"{first} {first} {first}!");
