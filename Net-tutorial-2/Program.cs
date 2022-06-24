@@ -426,3 +426,8 @@
 //     Console.WriteLine($"-- {box}");
 // }
 
+string value = "this is the way";
+char[] valueArray = value.ToCharArray();
+Array.Reverse(valueArray);
+string result = new string(valueArray);
+Console.WriteLine(result);
