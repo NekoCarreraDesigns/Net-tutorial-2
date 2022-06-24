@@ -385,3 +385,11 @@ foreach (var box in boxes)
 {
     Console.WriteLine($"-- {box}");
 }
+
+Console.WriteLine("");
+Console.WriteLine("Reversed...");
+Array.Reverse(boxes);
+foreach (var box in boxes)
+{
+    Console.WriteLine($"-- {box}");
+}
