@@ -502,39 +502,39 @@
 // int length = closingPosition - openingPosition;
 // Console.WriteLine(message.Substring(openingPosition, length));
 
-string message = "(what if) there are {different symbols} [needs a close] (more than) one set of (Parens)";
+// string message = "(what if) there are {different symbols} [needs a close] (more than) one set of (Parens)";
 
-char[] openSymbols = { '[', '{', '(' };
+// char[] openSymbols = { '[', '{', '(' };
 
-int closingPosition = 0;
+// int closingPosition = 0;
 
-while (true)
-{
-    int openingPosition = message.IndexOfAny(openSymbols, closingPosition);
-    if (openingPosition == -1) break;
+// while (true)
+// {
+//     int openingPosition = message.IndexOfAny(openSymbols, closingPosition);
+//     if (openingPosition == -1) break;
 
-    string currentSymbol = message.Substring(openingPosition, 1);
+//     string currentSymbol = message.Substring(openingPosition, 1);
 
-    char matchingSymbol = ' ';
+//     char matchingSymbol = ' ';
 
-    switch (currentSymbol)
-    {
-        case "[":
-            matchingSymbol = ']';
-            break;
-        case "{":
-            matchingSymbol = '}';
-            break;
-        case "(":
-            matchingSymbol = ')';
-            break;
+//     switch (currentSymbol)
+//     {
+//         case "[":
+//             matchingSymbol = ']';
+//             break;
+//         case "{":
+//             matchingSymbol = '}';
+//             break;
+//         case "(":
+//             matchingSymbol = ')';
+//             break;
 
-    }
+//     }
 
-    openingPosition += 1;
-    closingPosition = message.IndexOf(matchingSymbol, openingPosition);
+//     openingPosition += 1;
+//     closingPosition = message.IndexOf(matchingSymbol, openingPosition);
 
-    int length = closingPosition - openingPosition;
-    Console.WriteLine(message.Substring(openingPosition, length));
+//     int length = closingPosition - openingPosition;
+//     Console.WriteLine(message.Substring(openingPosition, length));
 
-}
+// }
