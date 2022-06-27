@@ -538,3 +538,13 @@
 //     Console.WriteLine(message.Substring(openingPosition, length));
 
 // }
+
+// replace remove helper methods
+string data = "12345John Smith          5000  3  ";
+string updatedData = data.Remove(5, 20);
+Console.WriteLine(updatedData);
+
+string message = "This--is--an--exa-mp-le--of--replace";
+message = message.Replace("--", " ");
+message = message.Replace("-", "");
+Console.WriteLine(message);
