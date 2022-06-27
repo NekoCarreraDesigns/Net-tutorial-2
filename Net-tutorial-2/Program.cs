@@ -478,12 +478,13 @@
 // Console.WriteLine(input.PadLeft(12, '-'));
 // Console.WriteLine(input.PadRight(12, '-'));
 
-string paymentId = "769";
-string payeeName = "Mrs. Candace Heckstall";
-string paymentAmount = "$1,000,000,000";
+// string paymentId = "769";
+// string payeeName = "Mrs. Candace Heckstall";
+// string paymentAmount = "$1,000,000,000";
 
-var formattedLine = paymentId.PadRight(6);
-formattedLine += payeeName.PadRight(24);
-formattedLine += paymentAmount.PadLeft(10);
+// var formattedLine = paymentId.PadRight(6);
+// formattedLine += payeeName.PadRight(24);
+// formattedLine += paymentAmount.PadLeft(10);
 
-Console.WriteLine(formattedLine);
+// Console.WriteLine(formattedLine);
+
